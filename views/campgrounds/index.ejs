@@ -1,0 +1,38 @@
+<% layout("layouts/boilerplate") %> 
+<body>
+    <div id="cluster-map"></div>
+    <main>
+        <!-- Add Destination Button -->
+        <div class="mb-3">
+            <a href="/campgrounds/new" class="btn" style="background-color: blue; color: white;">Add a Destination</a>
+        </div>
+        <% for(let campground of campgrounds) { %>
+               <div class="card mb-3">
+                   <div class="row">
+                    <div class="col-md-4">
+                        <% if(campground.images.length) { %>
+                            <img class="img-fluid" src="<%= campground.images[0].url %> " alt="">
+                        <% } else { %>
+                            <img class="img-fluid" src="https://www.nps.gov/mora/planyourvisit/images/OhanaCampground2016_CMeleedy_01_web.jpeg?maxwidth=1200&maxheight=1200&autorotate=false" alt="">
+                        <% } %> 
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><%= campground.title %> </h5>
+                            <p class="card-text"><%= campground.description %> </p>
+                            <p class="card-text">
+                                <small class="text-muted"><%= campground.location %> </small>
+                            </p>
+                            <a href="/campgrounds/<%= campground.id %>" class="btn btn-primary">View <%= campground.title %> </a>
+                        </div>
+                    </div>
+                   </div>
+               </div>
+            <% } %> 
+    </main>
+
+    <script>
+        const mapToken = "<%-process.env.MAPBOX_TOKEN%>"
+        const campgrounds = {features: <%-JSON.stringify(campgrounds)%>}
+    </script>
+    <script src="/js/clusterMap.js"></script>
