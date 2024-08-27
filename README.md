@@ -3,20 +3,19 @@
 Full-stack Web Application
 
 ## Screenshots of the Website
+![](https://github.com/user-attachments/assets/67b8ea27-0ab9-4934-9b48-b4f93a302459)
 
-![](https://github.com/user-attachments/assets/32556f29-c088-4956-b94d-09e0c7095c9a)
+![](https://github.com/user-attachments/assets/3d6ebf62-1867-4b8b-9c07-736c10a96460)
 
-![](https://github.com/user-attachments/assets/e1e66840-98ce-4ea8-be7e-2e5e4be000c6)
+![](https://github.com/user-attachments/assets/8f279748-0225-461e-b296-c7faf7b4e4ad)
 
-![](https://github.com/user-attachments/assets/aa368bf3-c9fc-46e3-b060-8d9c3bb70d13)
+![](https://github.com/user-attachments/assets/aaa0c8d5-26c4-41b9-8455-69f488ad19c9)
 
-![](https://github.com/user-attachments/assets/273b2705-8a8c-412f-bc76-1610e01e6c98)
+![](https://github.com/user-attachments/assets/7c9d3f7b-7abd-4728-b345-265d8571a747)
 
-![](https://github.com/user-attachments/assets/d56bcd1d-1a17-4f66-b49e-ddb334209fbb)
+![](https://github.com/user-attachments/assets/7456b9f6-7254-4d5d-83c1-1761696df415)
 
-![](https://github.com/user-attachments/assets/5e7a5e4f-d3f7-4883-9c9a-20cbcc72ab8f)
-
-![](https://github.com/user-attachments/assets/f2293a9f-e7b2-4b76-b21d-d5cc468aa44a)
+![](https://github.com/user-attachments/assets/cddfea04-edf7-43f8-ab17-a58c3e1d49fc)
 
 ## Technologies Used
 
